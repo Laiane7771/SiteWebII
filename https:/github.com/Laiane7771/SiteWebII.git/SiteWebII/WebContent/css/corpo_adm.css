@@ -1,0 +1,495 @@
+@CHARSET "UTF-8";
+
+#label-administrar{
+	position: absolute;
+    top: 49px;
+    left: 195px;
+    width: 390px;
+    height: 80px;
+    font-size: 40px;
+}
+.estilo-text{
+	position: absolute;
+    top: 10px;
+    left: 61px;
+    color: blue;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.estilo-texto{
+	position: absolute;
+    top: 10px;
+    left: 61px;
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#gerenciar_categoria{
+	position: absolute;
+    top: 61px;
+    left: 292px;
+    width: 490px;
+    height: 100px;
+    /*background: white;*/
+    border: 1px solid;
+    color: white;
+    font-size: 40px;
+}
+
+#gerenciar_subcategoria{
+	position: absolute;
+   	top: 194px;
+    left: 292px;
+    width: 490px;
+    height: 100px;
+    /*background: white;*/
+     border: 1px solid;
+     color: white;
+     font-size: 40px;
+}
+
+#gerenciar_produto{
+	position: absolute;
+    top: 328px;
+    left: 292px;
+    width: 491px;
+    height: 100px;
+   /* background: white;*/
+    border: 1px solid;
+    color: white;
+     font-size: 40px;
+}
+.estilo-link-adm{
+	
+	position: absolute;
+    left: 8px;
+    top: 13px;
+    width: 403px;
+    height: 26px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.estilo-link-adm:link{
+	color: white;
+}
+.estilo-link-adm:hover{
+	color:blue;
+}
+
+#rodape-adm{
+	margin: auto;
+    position: relative;
+    width: 1000px;
+    height: 69px;
+    top: 551px;
+   	background: black url(../Image/top_gradiente_s2II.png);
+	background-repeat: repeat-x;
+}
+
+#estilo-rodape{
+	position: absolute;
+    top: 11px;
+    left: 820px;
+}
+
+.estilo-input-text{
+	position: absolute;
+    width: 344px;
+    height: 38px;
+    font-size: 14px;
+    border-radius:9px;
+}
+
+#area-input-nomeProduto{
+    position: absolute;
+    width: 347px;
+    height: 49px;
+    left: 101px;
+   	top: 62px;
+    border: 0px;
+}
+#area-input-descricao{
+	position: absolute;
+    width: 347px;
+    height: 44px;
+    left: 101px;
+   	top: 120px;
+    border: 0px;
+}
+
+.estilo-submit{
+	position: absolute;
+    width: 81px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 9px;
+    top: 272px;
+    left: 295px;
+}
+#area-cadastro{
+	position: absolute;
+    width: 972px;
+    height: 506px;
+    top: 30px;
+    left: 16px;
+    background: rgba(24, 216, 245, 0.55);
+    border: 1px solid;
+}
+
+.estilo-submite{
+	position: absolute;
+    width: 81px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 9px;
+    top: 272px;
+    left: 380px;
+}
+
+.estilo-input-desc{
+	position: absolute;
+	left: 189px;
+    width: 344px;
+    height: 124px;
+    font-size: 14px;
+    border-radius:9px;
+}
+#label-cadastrarProduto{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 36px;
+	color: black;
+	
+}
+
+#areaTabela{
+	position: absolute;
+    top: 262px;
+    left: 137px;
+    
+}
+
+table{
+	border: 1px solid;
+	background: white;
+}
+#area-botao-cadastrar{
+	position: absolute;
+   	width: 68px;
+    height: 33px;
+    border: 1px solid;
+    top: 328px;
+    left: 286px;
+    color: black;
+	cursor: pointer;
+	border: solid 1px;
+}
+#est-botao-voltar{
+	position: absolute;
+    top: 6px;
+    left: 10px;
+}
+#est-botao-cadastrar{
+	position: absolute;
+    top: 7px;
+    left: 3px;
+   
+}
+#area-botao-voltar{
+	position: absolute;
+    width: 60px;
+    height: 33px;
+    border: 1px solid;
+    top: 327px;
+    left: 216px;
+    color: black;
+	cursor: pointer;
+	border: solid 1px;
+}
+
+#combobox1{
+	position: absolute;
+    width: 256px;
+    height: 33px;
+    top: 71px;
+    left: 353px;
+    
+}
+
+#labelCadastrarSubcategoria{
+	position: absolute;
+    top: 22px;
+    left: 354px;
+    color: white;
+    font-size: 26px;
+   
+}
+#labelCategoria1{
+	position: absolute;
+    top: 71px;
+    left: 266px;
+    color: white;
+    font-size: 20px;
+}
+#labelNomesubcategoria{
+	position: absolute;
+    top: 120px;
+    left: 165px;
+    color: white;
+    font-size: 20px;
+}
+
+#area-input-nomesub{
+	
+    position: absolute;
+    width: 174px;
+    height: 24px;
+    top: 120px;
+    left: 353px;
+	
+}
+
+#input-nomeSubcat{
+	width: 252px;
+    height: 35px;
+	
+}
+
+#area-descri-sub{
+	position: absolute;
+    top: 87px;
+    left: 177px;
+    width: 252px;
+    width-max: 252px;
+    height: 60px;
+}
+
+#label-detalhes-desc{
+	position: absolute;
+    top: 190px;
+    left: 276px;
+    font-size: 20px;
+    color: white;
+}
+
+#botaoVoltar{
+	position: absolute;
+    width: 64px;
+    height: 34px;
+    top: 270px;
+    left: 456px;
+    background: none;
+    border: 1px solid white;
+    cursor: pointer;
+	 
+}
+#labelVoltar{
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    color: #000000;
+}
+#labelCadastrar{
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    color: #0E0E0C;
+}
+#botaoCadastrar{
+	position: absolute;
+    top: 270px;
+    left: 534px;
+    color: white;
+    width: 77px;
+    height: 34px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#cadastrar-subcategoria{
+	position: absolute;
+    top: 61px;
+    left: 300px;
+    background: none;
+    border: 1px solid white;
+    width: 646px;
+    height: 400px;
+}
+#area-select-categoria{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	background: white;
+	width: 100px;
+	height: 40px;
+}
+
+#labelCategoriap{
+	position: absolute;
+    top: 75px;
+    left: 249px;
+    font-size: 20px;
+    color: white;
+}
+
+
+#categoriasNome{
+	position: absolute;
+    top: 18px;
+    left:  188px;
+    width: 344px;
+    height: 28px;
+}
+#labelSubp{
+	position: absolute;
+    top: 124px;
+    left: 224px;
+    font-size: 20px;
+    color: white;
+}
+
+#labelnome{
+	position: absolute;
+    top: 173px;
+    left: 279px;
+    font-size: 20px;
+    color: white;
+}
+#input-nome{
+	position: absolute;
+    top: 166px;
+    left: 336px;
+    width: 252px;
+    height: 28px;
+}
+#labelDescricaop{
+	position: absolute;
+    top: 215px;
+    left: 250px;
+    font-size: 20px;
+    color: white;
+}
+#area-text-desc{
+	position: absolute;
+    top: 216px;
+    left: 336px;
+    width: 251px;
+    height: 75px;
+}
+#areabotaocadp{
+	position: absolute;
+    top: 450px;
+    left: 508px;
+    width: 75px;
+    height: 28px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#label-cad{
+	position: absolute;
+    top: 6px;
+    left: 10px;
+    color: white;	
+}
+#areabotaovolp{
+	position: absolute;
+    top: 450px;
+    left: 420px;
+    width: 75px;
+    height: 28px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#label-vol{
+	position: absolute;
+	width: 90%;
+	heigth: 100%;
+	top: 8px;
+	left: 10px;
+	color: white;
+}
+
+
+#caixa-guardaformulario{
+	position: absolute;
+	top: 49px;
+    left: 223px;
+	border: 1px solid;
+	background: white;
+}
+
+#espaçofield{
+	position: absolute;
+    width: 50%;
+    height: 15%;
+    top: 306px;
+    left: 247px;
+   
+}
+
+#entradavaloratual{
+	position: absolute;
+    top: 2px;
+    left: 95px;
+    width: 245px;
+    height: 25px;
+
+	
+}
+#entradavaloranterior{
+	position: absolute;
+    top: 49px;
+    left: 95px;
+    width: 245px;
+    height: 28px;
+}
+#labelValorAtual{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: white;
+}
+
+#labelValorAnterior{
+	position: absolute;
+    top: 48px;
+    left: -8px;
+    color: white;
+}
+
+#carregando {
+    display: none;
+    position:fixed;
+    z-index:1000;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/loading100.gif);
+    background-repeat: no-repeat;
+}
+
+#pesquisar{
+    position: absolute;
+    top: 337px;
+    left: 669px;
+    background: none;
+	
+}
+
+
+
+
+
+
+
+
+
+
+

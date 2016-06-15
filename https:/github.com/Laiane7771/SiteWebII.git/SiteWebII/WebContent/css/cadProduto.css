@@ -1,0 +1,260 @@
+body{
+	margin:auto;
+	position: relative;
+	width: 1000px;
+	height: 200px;
+}
+#cabecalho{
+	position:relative;
+	margin:auto;
+	width: 100%;
+	height: 181px;
+	background-image: url(../Image/top_gradiente_s1.png);
+	background-repeat: repeat-x;
+}
+
+#label_boasVindas{
+	position: absolute;
+    top: 77px;
+    left: 846px;
+}
+
+#logo-ecommerce{
+	position: absolute;
+    width: 166px;
+    height: 77px;
+    top: 45px;
+    left: 19px;
+    background: url(../Image/logo_s1.png);
+    background-repeat: no-repeat;
+}
+
+#label-administrar{
+	position: absolute;
+    top: 77px;
+    left: 305px;
+	font-size: 25px;
+}
+
+#principal{
+	position: absolute;
+    width: 1000px;
+    height: 756px;
+    background: url(../Image/fundo.jpg);
+}
+
+#rodape{
+    margin: auto;
+    position: relative;
+    width: 1000px;
+    height: 69px;
+    top: 757px;
+    background: black url(../Image/top_gradiente_s2II.png);
+    background-repeat: repeat-x;
+}
+
+#areaFormulario{
+    position: absolute;
+    top: 10px;
+    left: 118px;
+    width: 776px;
+    height: 730px;
+    background: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+#labelCategoria{
+	position: absolute;
+    top: 73px;
+    left: 79px;
+	
+}
+#categorias{
+	position: absolute;
+    top: 67px;
+    left: 153px;
+    width: 452px;
+    height: 31px;
+}
+
+#labelSubCate{
+	position: absolute;
+    top: 124px;
+    left: 58px;
+}
+
+#idSubCategorias{
+	position: absolute;
+    top:  118px;
+    left: 153px;
+    width: 452px;
+    height: 31px;
+}
+#labelNome{
+	position: absolute;
+    top: 178px;
+    left: 103px;
+}
+
+#inputNome{
+	position: absolute;
+    top: 169px;
+    left: 153px;
+    width: 446px;
+    height: 29px;
+}
+
+#labelDescri{
+	position: absolute;
+    top: 233px;
+    left: 80px;
+}
+
+#areaDescri{
+	position: absolute;
+    top: 216px;
+    left: 152px;
+    width: 445px;
+    height: 51px;
+}
+
+#labelValorA{
+	 position: absolute;
+    top: 299px;
+    left: 67px;
+}
+
+#ValorA{
+	position: absolute;
+    top: 291px;
+    left: 153px;
+    width: 132px;
+    height: 29px;
+}
+
+#labelValorAn{
+	position: absolute;
+    top: 299px;
+    left: 303px;
+}
+
+#valorAn{
+	position: absolute;
+    top: 291px;
+    left: 408px;
+    width: 171px;
+    height: 29px;
+}
+
+#btVoltar{
+	position: absolute;
+    top: 422px;
+    left: 450px;
+    border: 1px solid;
+    width: 70px;
+    height: 26px;
+    cursor: pointer;
+}
+#Cadastrar{
+    position: absolute;
+    top: 421px;
+    left: 542px;
+    border: 1px solid;
+    width: 70px;
+    height: 31px;
+    cursor: pointer;
+}
+#labelVoltar1{
+	position: absolute;
+    top: 4px;
+    left: 13px;
+}
+
+#labelCadastrar1{
+	position: absolute;
+    top: 3px;
+    left: 3px;
+}
+#botaoPesquisar{
+    position: absolute;
+    top: 476px;
+    left: 559px;
+    width: 80px;
+    height: 27px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#labelPesq{
+	position: absolute;
+    top: 4px;
+    left: 13px;
+}
+
+#InputPesqui{
+    position: absolute;
+    top: 475px;
+    left: 80px;
+    width: 469px;
+    height: 25px;
+}
+
+#imageProduto{
+    position: absolute;
+    top: 345px;
+    left: 88px;
+}
+#imagemprod{
+    position: absolute;
+    top: 344px;
+    left: 152px;
+    width: 308px;
+    cursor: pointer;
+}
+#areaTab{
+	position: absolute;
+    top: 453px;
+    left: 76px;
+    background: rgba(233, 236, 236, 0.03);
+	
+}
+
+table{
+    border: 1px solid black;
+    width: 588px;
+    height: 66px;
+    top: 3px;
+    left: 1px;  
+    background: white;
+    
+}
+
+#labelCadastrar{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 30px;
+}
+
+#subcategorias{
+    position: absolute;
+    top: 120px;
+    left: 151px;
+    width: 457px;
+    height: 32px;
+}
+
+#labelqtdestoque{
+    position: absolute;
+    top: 383px;
+    left: 0px;
+    width: 457px;
+    height: 32px;
+}
+#qtdestoque{
+    position: absolute;
+    top: 377px;
+    left: 158px;
+    width: 457px;
+    height: 25px;
+}

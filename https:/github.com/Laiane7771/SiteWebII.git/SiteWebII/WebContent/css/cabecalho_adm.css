@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+body{
+	margin:auto;
+	position: relative;
+	width: 1000px;
+	height: 200px;
+}
+
+#cabecalho-adm{
+	position:relative;
+	margin:auto;
+	width: 100%;
+	height: 181px;
+	background-image: url(../Image/top_gradiente_s1.png);
+	background-repeat: repeat-x;
+}
+
+
+#principal-adm{
+	position: absolute;
+    width: 1000px;
+    height: 551px;
+    background: url(../Image/fundo.jpg);
+}
+
+#label_boasVindas{
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: 782px;
+    top: 73px;
+    font-size: 23px;
+    color: blue;
+}
+#logo-ecommerce{
+	position: absolute;
+    width: 166px;
+    height: 77px;
+    top: 45px;
+    left: 19px;
+    background: url(../Image/logo_s1.png);
+    background-repeat: no-repeat;
+}

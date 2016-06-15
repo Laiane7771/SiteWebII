@@ -1,0 +1,109 @@
+body{
+	margin:auto;
+}
+.principal{
+	margin: auto;
+    width: 1000px;
+    border: 1px solid;
+}
+
+#areaFormulario{
+    position: relative;
+    width: 48%;
+    height: 100%;
+    border: 1px solid;
+    margin-left: 282px;
+    margin-bottom: 127px;
+    margin-top: 105px;
+}
+
+#spanNome{
+    position: relative;
+    margin-top: 36px;
+    margin-left: 74px;
+}
+#spanAssunto{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+#spanEmail{
+	position: relative;
+    margin-top: 10px;
+    margin-left: 72px;
+}
+#spanDescricao{
+    position: relative;
+    margin-top: 9px;
+    margin-left: 47px;
+}
+
+.inputNome{
+    position: relative;
+    margin-top: 51px;
+    margin-left: 10px;
+    margin-right: 65px;
+    width: 58%;
+    height: 22px;
+
+}
+.tituloAtendimento{
+	position: relative;
+	margin-top:5px;
+	margin-left:5px;
+	font-size:20px;
+}
+.inputAssunto{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 67px;
+    margin-left: 10px;
+    width: 58%;
+    height: 22px;
+}
+.inputEmail{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 69px;
+    width: 58%;
+    height: 22px;
+}
+
+.inputDescricao{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 70px;
+    width: 57%;
+    height: 68px;
+
+}
+.btnEnviar{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 44px;
+    margin-bottom: 10px;
+    width: 16%;
+    background: none;
+    height: 35px;
+    border: 1px solid;
+}
+
+#estilo-rodape2{
+	margin: auto;
+    position: relative;
+    width: 1000px;
+    height: 69px;
+    /*top: 551px;*/
+   	background: black url(../Image/top_gradiente_s2II.png);
+	background-repeat: repeat-x;
+}
+
+
+
+
+
+
+
+

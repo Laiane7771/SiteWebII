@@ -1,0 +1,136 @@
+body{
+   background: url(../Image/logoFundo.png);
+	
+}
+
+.principal{
+    position: relative;
+    margin-top: 199px;
+    margin-left: 489px;
+    width: 30%;
+    height: 100%;
+    background: pink;
+    border: 1px solid;
+}
+
+.loginAdm{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 80%;
+	height: 100%;
+
+}
+#inputTipoUsuario{
+    background: none;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 93px;
+    border: 1px white;
+    color: white;
+}
+.loginAdm1{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 80%;
+	height: 100%;
+	color: green;
+}
+
+.senhaLogin{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+
+#FormularioLogin{
+    position: relative;
+    margin-top: 137px;
+    margin-left: 423px;
+    /* border: 1px solid; */
+    width: 26%;
+    height: 100%;
+    box-shadow: 2px 5px 8px 10px rgba(0, 0, 0, 0.34);
+    background: white;
+}
+
+#nomeUsuario{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+#Senha{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 27px;
+
+}
+
+#inputUsuario{
+    position: relative;
+    margin-top: 92px;
+    margin-left: 5px;
+    width: 233px;
+    height: 29px;
+    background: white;
+    border: 1px solid;
+
+}
+#inputSenha{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 4px;
+    width: 233px;
+    height: 29px;
+    background: none;
+    border:1px solid;
+}
+.botaoLogin{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 133px;
+    margin-bottom: 20px;
+    width: 76px;
+    height: 31px;
+    border: 1px solid;
+    background: none;
+}
+#tituloPagina{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 36px;
+}
+.cadastre-se{
+    position: relative;
+    margin-top: 8px;
+    margin-left: 38px;
+    margin-right: 77px;
+    margin-bottom: 47px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.visited{
+	color:blue;
+}
+a.hover{
+	color:blue;
+}
+#mensagemErro{
+	position:relative;
+	margin-top:8px;
+	margin-left: 10px;
+}
+.voltarHome{
+    position: relative;
+    margin-left: 37px;
+    margin-top: 10px;
+    text-decoration:none;
+    color:blue;
+}

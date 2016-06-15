@@ -1,0 +1,193 @@
+body{
+	text-align:center;
+	
+}
+
+.centralizar{
+	margin:auto;
+	position: relative;
+}
+header{
+	position:relative;
+	margin:auto;
+	width: 1000px;
+	height: 174px;
+	background-image: url(../Image/top_gradiente_s1.png);
+	background-repeat: repeat-x;
+	
+}
+
+#logo{
+	position: absolute;
+	width: 166px;
+	height: 76px;
+	background-image: url(../Image/logo_s1.png);
+	background-repeat: no-repeat;
+	top: 36px;
+	left: 54px;
+	cursor: pointer;
+}
+.link-cabecalho{
+	float: right;
+	position: relative;
+	top: 145px;
+	left: 17px;
+	width: 137px;
+    height: 26px;
+	color: DarkSlateGray;
+	text-decoration:none;
+	
+}
+
+.link-cabecalho:hover{
+	color:blue;
+}
+
+
+#carrinho{
+	position: absolute;
+	width:173px;
+	height:79px;
+	background-image: url(../Image/carinho_s1.png);
+	background-repeat:no-repeat;
+	bottom: 100px;
+	float: right;
+	left: 764px;
+	top: 25px;
+	cursor: pointer;
+}
+
+.pesquisarProd{
+    position: relative;
+    margin-left: 235px;
+    margin-top: 3px;
+    color: white;
+    margin-bottom: 10px;
+    background: blue;
+    border-radius: 7px 8px 6px 6px;
+}
+
+
+#botao{
+    position: absolute;
+    width: 44px;
+    height: 26px;
+    /* background-image: url(../Image/botao_buscar_s1.png); */
+    background-repeat: no-repeat;
+    bottom: 90px;
+    left: 255px;
+    top: 1px;
+    cursor: pointer;
+}
+
+#corpo{
+	position: absolute;
+	width: 186px;
+	height: 348px;
+	background-color: black;
+	background-image: url(../Image/camera.png);
+	background-repeat: repeat-x;
+	top: 700px;
+	bottom: 80px;
+	left: 300px;
+}
+
+
+#areaBusca{
+	
+	position: absolute;
+	width: 420px;
+	height: 38px;
+	background-color: green;
+	left: 268px;
+	top: 57px;
+}
+
+#areaBuscaEsq{
+	position:absolute;
+	width: 15px;
+	height: 38px;
+	background: black url(../Image/buscar_esquerda_s1.png);
+	background-repeat:no-repeat;
+}
+#areaBuscaCentro{
+	position:absolute;
+	width: 390px;
+	height: 38px;
+	left: 15px;
+	background: black url(../Image/buscar_centro_s1.png);
+	background-repeat: repeat-x;
+	
+}
+#areaBuscaDir{
+	position: absolute;
+	width: 16px;
+	height: 38px;
+	left: 405px;
+	background: black url(../Image/buscar_direita_s1.png);
+	background-repeat: no-repeat;
+	
+}
+#area_input_buscar {
+    position: absolute;
+    width: 240px;
+    height: 29px;
+    top: 3px;
+    left: 72px;
+    background-color: white;
+}
+
+
+#area-input-esq{
+	
+    position: absolute;
+    width: 10px;
+    height: 29px;
+    background-image: url(../Image/caixa_de_texto_esquerda_s1.png);
+    left:0px;
+    top: 1px;
+    background-color: black;
+}
+	
+	
+
+#area-input-centro{
+	position: absolute;
+	width: 219px;
+	height: 29px;
+	background: url(../Image/caixa_de_texto_centro_s1.png);
+	background-repeat: repeat-x;
+	left:10px;
+	top: 1px;
+}
+#area-input-dir {
+    position: absolute;
+    width: 11px;
+    height: 29px;
+    background: black url(../Image/caixa_de_texto_direita_s1.png);
+    left: 229px;
+    top: 1px;
+    
+}
+#area_input{
+	position: absolute;
+	width: 214px;
+    height: 22px;
+  	left: 4px;
+    top: 3px;
+  	border: 0px;
+  	
+}
+input:focus {
+  outline: none;
+}
+
+#label_buscar{
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	top: 8px;
+	width: 60px;	
+}

@@ -1,0 +1,190 @@
+body{
+	margin:auto;
+	position: relative;
+	width: 1000px;
+	height: 200px;
+}
+#cabecalho{
+	position:relative;
+	margin:auto;
+	width: 100%;
+	height: 181px;
+	background-image: url(../Image/top_gradiente_s1.png);
+	background-repeat: repeat-x;
+}
+
+#principal{
+	position: absolute;
+    width: 1000px;
+    height: 551px;
+    background: url(../Image/fundo.jpg);
+}
+
+#rodape{
+	margin: auto;
+    position: relative;
+    width: 1000px;
+    height: 69px;
+    top: 551px;
+   	background: black url(../Image/top_gradiente_s2II.png);
+	background-repeat: repeat-x;
+}
+
+#logo-ecommerce{
+	position: absolute;
+    width: 166px;
+    height: 77px;
+    top: 45px;
+    left: 19px;
+    background: url(../Image/logo_s1.png);
+    background-repeat: no-repeat;
+}
+
+#label_boasVindas{
+	position: absolute;
+    top: 77px;
+    left: 846px;
+}
+
+#label-administrar{
+	position: absolute;
+    top: 77px;
+    left: 305px;
+	font-size: 25px;
+}
+
+#espaco-nomeInput{
+	position: absolute;
+    top: 40px;
+    left: 156px;
+    background: white;
+    width: 72%;
+    height: 87%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+#labelNome{
+	position: absolute;
+    top: 99px;
+    left: 76px;
+}
+
+#NomeCategoriainput{
+	position: absolute;
+    top: 96px;
+    left: 129px;
+    width: 499px;
+    height: 23px;
+}
+
+#labelDescricao{
+	position: absolute;
+    top: 161px;
+    left: 52px;
+    width: 497px;
+    height: 23px;
+}
+
+#descricao{
+	position: absolute;
+	top: 143px;
+    left: 129px;
+    width:  497px;
+    height: 50px;
+	
+}
+
+#botao{
+	position: absolute;
+    top: 221px;
+    height: 23px;
+    width: 65px;
+    left: 564px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#btnVoltar{
+	position: absolute;
+    top: 221px;
+    height: 23px;
+    width: 65px;
+    left: 488px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#labelv{
+	position: absolute;
+    top: 3px;
+    left: 10px;
+}
+
+#labelc{
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+#pesquisarCategoria{
+	position: absolute;
+    top: 277px;
+    left: 52px;
+    width: 500px;
+    height: 23px;
+}
+
+#btnPesquisar{
+	position: absolute;
+    top: 277px;
+    left: 564px;
+    border: 1px solid;
+    width: 70px;
+    height: 26px;
+    cursor: pointer;
+}
+#labelPesquisar{
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	 
+}
+#espaco-Tabela{
+	position: absolute;
+    top:  378px;
+    left: 208px;
+    background: rgba(233, 236, 236, 0.03);
+
+
+}
+table{
+    border: 1px solid black;
+    width: 588px;
+    height: 66px;
+    top: 3px;
+    left: 1px;  
+    background: white;
+    
+}
+#labelCadastrar{
+	font-size: 30px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+
+#categorias{
+    position: absolute;
+    top: 98px;
+    left: 126px;
+    width: 70%;
+    height: 4%;
+}
+
+#btnCadastrar{
+    position: absolute;
+    top: 219px;
+    left: 563px;
+    width: 10%;
+    height: 6%;
+}

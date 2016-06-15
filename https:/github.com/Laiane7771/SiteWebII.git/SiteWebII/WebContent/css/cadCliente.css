@@ -1,0 +1,233 @@
+html{
+	background: url(../Image/logo_s1.png);
+	/*background-repeat: repeat-x;*/
+}
+.formulario{
+	position: relative;
+    width: 46%;
+    height: 100%;
+    /* border: 1px solid; */
+    margin-left: 358px;
+    margin-top: 94px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.42);
+    background: white;
+}
+
+#spanTituloPagina{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 25px;
+    color: #0000CC;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42);
+    background-color: white;
+}
+#spanNome{
+    position: relative;
+    margin-left: 60px;
+    /* margin-right: 11px; */
+    /* margin-top: 10px; */
+}
+
+#spanRG{
+	position: relative;
+    margin-left: 77px;
+    margin-top: 10px;
+}
+#spanCpf{
+    position: relative;
+    margin-left: 61px;
+    margin-top: 10px;
+}
+
+#spanEmail{
+    position: relative;
+    margin-left: 56px;
+    margin-top: 10px;
+}
+
+#spanEndereco{
+    position: relative;
+    margin-left: 39px;
+    margin-top: 10px;
+}
+
+#spanRua{
+	position:relative;
+	margin-left:10px;
+	margin-top:10px;
+}
+#spanRua{
+    position: relative;
+    margin-left: 74px;
+    margin-top: 10px;
+}
+#spanNu{
+	position:relative;
+	margin-left:10px;
+	margin-top:10px;
+}
+#spanCep{
+	position:relative;
+	margin-left:10px;
+	margin-top:10px;
+}
+#spanBairro{
+    position: relative;
+    margin-left: 58px;
+    margin-top: 10px;
+}
+#spanCidade{
+	position:relative;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+#spanGO{
+    position: relative;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+#spanUsuario{
+    position: relative;
+    margin-left: 47px;
+    margin-top: 10px;	
+}
+#spanSenha{
+    position: relative;
+    margin-left: 63px;
+    margin-top: 0px;
+	
+}
+#spanConfirma{
+	position:relative;
+	margin-left:10px;
+	margin-top:10px;	
+}
+.inputNome{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 71px;
+    width: 371px;
+    height: 22px;
+}
+
+.inputRG{
+	position:relative;
+	margin-left:10px;
+	margin-top:10px;
+	width: 120px;
+	 height: 22px;
+}
+.inputCpf{
+    position: relative;
+    margin-left: 8px;
+    margin-right: 76px;
+    margin-top: 10px;
+    width: 140px;
+    height: 22px;
+}
+
+.inputEmail{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 28px;
+    margin-top: 10px;
+    width: 370px;
+    height: 22px;
+}
+.inputEndereco{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 64px;
+    width: 370px;
+    height: 22px;
+}
+
+.inputRua{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+    height: 22px;
+}
+.inputNu{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 63px;
+    height: 22px;
+}
+.inputCep{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 45px;
+    width: 129px;
+    height: 22px;
+}
+.inputBairro{
+	position:relative;
+	margin-left:10px;
+	margin-top:10px;
+	width: 120px;
+	 height: 22px;
+}
+
+.inputCidade{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 43px;
+    width: 172px;
+    height: 22px;
+}
+
+.selectUf{    
+	position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 365px;
+    /*margin-bottom: 20px;*/
+    width: 69px;
+    height: 29px;
+}
+
+#inputEnviar{
+    position: relative;
+    margin-left: 248px;
+    margin-top: 12px;
+    margin-bottom: 72px;
+    background: none;
+    border: 1px solid;
+    width: 76px;
+    height: 30px;
+}
+#inputUsuario{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 184px;
+    /* margin-bottom: 10px; */
+    width: 174px;
+    height: 20px;
+}
+.inputSenha{
+    position: relative;
+    margin-left: 4px;
+    margin-top: 10px;
+    /* margin-bottom: 72px; */
+    width: 104px;
+    height: 22px;
+}
+
+.inputConfirma{
+    position: relative;
+    margin-left: 5px;
+    margin-top: 12px;
+    margin-bottom: 72px;
+    width: 131px;
+    height: 22px;
+}

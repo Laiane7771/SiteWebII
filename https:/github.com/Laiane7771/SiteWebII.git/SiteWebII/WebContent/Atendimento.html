@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Atendimento</title>
+		<link rel="stylesheet" href="css/atendimento.css"></link>
+		<link rel="stylesheet" href="css/estilo_cabecalho.css">
+		<link rel="stylesheet" href="css/estilo_corpo.css">
+		<link rel="stylesheet" href="css/estilo_rodape.css">
+		<link rel="stylesheet" href="css/subcategorias.css">
+		
+	</head>
+	<body>	
+		<header>
+			<a href = "index.jsp"><div id = "logo" ></div></a>
+			<div id = "carrinho"></div>
+			<div id = "areaBusca">
+				<div id= "areaBuscaEsq"></div>
+				<div id = "areaBuscaCentro">
+					<div id = "label_buscar">Buscar</div>
+						<div id = "area_input_buscar">
+							<div id = "area-input-esq"></div>
+							<div id = "area-input-centro">
+								<input id = "area_input" type = text>
+							</div>
+							<div id = "botao"></div>
+							<div id = "area-input-dir"></div>
+						</div>
+					</div>
+				<div id = "areaBuscaDir"></div>
+			</div>			
+				<nav class = "navegar_acima">
+					<a class = "link-cabecalho" href = "Atendimento.html"> Atendimento </a>
+					<a class = "link-cabecalho" href = "MeusPedidos.html"> Meus pedidos </a>
+					<a class = "link-cabecalho" href = "Login.jsp"> Login ou Cadastre-se </a>	
+				</nav>	
+		</header>
+		<section class="principal">
+			<span class="tituloAtendimento">Atendimento</span>
+			<div id="areaFormulario">
+				
+				<form action="" method="Post">
+					
+					<span id="spanNome">Nome:</span><input type="text" class="inputNome"></input>
+					<span id="spanAssunto">Assunto:</span><input type="text" class="inputAssunto"></input>
+					<span id="spanEmail">Email:</span><input type="text" class="inputEmail"></input>
+					<span id="spanDescricao">Descrição:</span><textarea  rows="4" cols="6" type="text" class="inputDescricao"></textarea>
+					<input type="submit" class="btnEnviar"></input>
+				</form>
+			</div>
+		</section>
+		<footer id = "rodape-adm"><span id = "estilo-rodape2">Power By Laiane Ricardo</span></footer>
+	</body>
+</html>

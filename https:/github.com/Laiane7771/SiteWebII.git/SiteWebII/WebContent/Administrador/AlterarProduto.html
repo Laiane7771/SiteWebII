@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Cadastrar Produto</title>
+		<link rel="stylesheet" href="../css/cadProduto.css"></link>
+		<link rel="stylesheet" href="../css/cabecalho_adm.css"></link>
+		<link rel="stylesheet" href="../css/corpo_adm.css"></link>
+		<script type="text/javascript"  src="../js/jquery-1.3.2.min.js"></script> 
+		<script type="text/javascript">
+	        $(document).ready(function(){
+	        	
+	        		$('#categorias').load('/SiteWebII/Administrador/listarCategorias', function(){
+	        			$('#subcategorias').load('/SiteWebII/listarSubCategorias?idCategoria='+$('#categorias').val() );
+	        		});
+	           
+	        		$('#categorias').change(function(){
+	                $('#subcategorias').load('/SiteWebII/listarSubCategorias?idCategoria='+$('#categorias').val() );
+	
+	            });
+	        });
+		</script>
+	</head>
+	<body>
+		<!-- ========================================================================== -->
+		<!-- ====================CABECALHO============================================= -->
+		<!-- ========================================================================== -->
+		<header id = "cabecalho">
+			<div id = "label_boasVindas" class = "estilo-text"> Bem-Vindo Laiane</div>
+			<div id = "logo-ecommerce"></div>
+			<div id = "label-administrar"><span class = "estilo-text">Área Administrativa</span></div>
+		</header>
+		<!-- ========================================================================== -->
+		<!-- ==================PRINCIPAL=============================================== -->
+		<!-- ========================================================================== -->
+		<div id = "principal">
+			<div id = "areaFormulario">
+			
+				<form enctype="multipart/form-data" action="cadastrarProduto" method="post">
+					<span id = "labelCadastrar">Cadastrar Produto</span>
+					<span id = "labelCategoria">Categoria:</span>
+					<select id = "categorias" name="categorias"></select>
+					<span id = "labelSubCate">Subcategoria:</span>
+					<select id = "subcategorias" name = "subcategorias"></select>
+					<span id = "labelNome">Nome:</span>
+					<input type = "text" name = "nome" id = "inputNome"></input>
+					<span id = "labelDescri">Descrição:</span>
+					<textarea rows="3" cols="6" id = "areaDescri" name="descricao"></textarea>
+					<span id = "labelValorA">Valor Atual:</span>
+					<input  type="text" name = "valor"id = "ValorA"></input>
+					<span id = "labelValorAn">Valor Anterior:</span>
+					<input type = "text" name = "valorAnterior" id = "valorAn"></input>
+					<span id = "labelqtdestoque">Quantidade em Estoque</span>
+					<input type = "text" name = "qntEstoque" id = "qtdestoque"></input>
+					<span id = "imageProduto">Imagem:</span>
+					<input type = "file" name = "imagem" id = "imagemprod"></input>
+					<a href="administracao.html">
+						<div id = "btVoltar"><span id = "labelVoltar1">Voltar</span></div>
+					</a>	
+					<input type="submit" value="Cadastrar" id = "Cadastrar" />
+			  </form>
+			  
+			  <input type = "text" name = "Inputpesquisar" id = "InputPesqui"></input>
+			  <div id = "botaoPesquisar"><span id = "labelPesq">Pesquisar</span></div>
+			</div>
+		</div>
+		<footer id = "rodape"></footer>
+	</body>
+</html>
