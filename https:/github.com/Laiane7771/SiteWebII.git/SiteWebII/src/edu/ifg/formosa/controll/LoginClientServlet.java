@@ -39,18 +39,24 @@ public class LoginClientServlet extends HttpServlet {
 		tipo1.setTipo(tipo);
 		user.setTipoUsuario(tipo1);
 		try {
-			UsuarioDAO.autentica(user);
-				
+			user = UsuarioDAO.autentica(user);
+			if(user!=null){	
 				if(user.isAutenticado()){
 					request.getSession().setAttribute("usuario", user); //cria sessão
-					response.sendRedirect("/Cliente/checkout.jsp"); //mostra resposta
+					response.sendRedirect("index.jsp"); //mostra resposta
 					
 				}
-				else if(user.isAutenticado()){
+				else{
 					String msg = "Login incorreto";
 					request.getSession().setAttribute("msg",msg);
 					response.sendRedirect("Login.jsp");
 				}
+			}
+			else{
+				String msg = "Login incorreto";
+				request.getSession().setAttribute("msg",msg);
+				response.sendRedirect("Login.jsp");
+			}
 		}catch (SQLException e) {
 			System.out.println(""+e.getMessage());
 		}

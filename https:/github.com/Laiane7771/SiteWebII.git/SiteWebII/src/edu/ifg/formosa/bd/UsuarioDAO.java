@@ -16,6 +16,47 @@ import edu.ifg.formosa.model.Usuario;
 
 public class UsuarioDAO {
 
+	public static Usuario buscaUsuarioPorId(Usuario usuario){
+
+		String sql = "select usuario.idusuario, usuario.nome, usuario.login, usuario.senha, usuario.cpf,"
+				+"usuario.rg, usuario.email, estado.nome, estado.idestado, "
+				+"endereco.idendereco, endereco.rua, endereco.numero, endereco.bairro,"
+				+"endereco.complemento, endereco.cep, cidade.nome, cidade.idcidade from "
+				+"usuario inner join endereco  on usuario.idendereco = endereco.idendereco "
+				+"inner join cidade on endereco.idcidade = cidade.idcidade "
+				+"inner join estado on cidade.idestado = estado.idestado "
+				+"where idusuario ="+usuario.getIdUsuario();
+
+		new GerenciadorConexao();
+		Connection c = GerenciadorConexao.pegaConexao();
+
+		PreparedStatement ps;
+		try {
+			ps = c.prepareStatement(sql);
+
+			ResultSet rs = ps.executeQuery();
+			while(rs.next()){
+				Usuario usuarioDB = new Usuario();
+				usuarioDB.setLogin(rs.getString("login"));
+				usuarioDB.setSenha(rs.getString("senha"));
+				TipoUsuario tu = new TipoUsuario();
+				tu.setTipo(rs.getString("tipo"));
+				usuarioDB.setTipoUsuario(tu);
+				if(usuario.getLogin().equals(usuarioDB.getLogin())&& usuario.getSenha().equals(usuarioDB.getSenha())){
+					if(usuario.getTipoUsuario().getTipo().equals(usuarioDB.getTipoUsuario().getTipo())){
+						usuarioDB.setAutenticado(true);
+						return usuarioDB;
+
+					}
+				}
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+
 	public static Usuario autentica(Usuario usuario) throws SQLException{
 
 		String sql = "select distinct tipoUsuario.tipo, usuario.senha, usuario.login from tipoUsuario"
@@ -37,7 +78,7 @@ public class UsuarioDAO {
 				if(usuario.getTipoUsuario().getTipo().equals(usuarioDB.getTipoUsuario().getTipo())){
 					usuarioDB.setAutenticado(true);
 					return usuarioDB;
-					
+
 				}
 			}
 		}

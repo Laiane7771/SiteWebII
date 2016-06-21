@@ -63,7 +63,6 @@ public class CadastrarClienteServlet extends HttpServlet {
 		request.getSession().setAttribute("mensagem", resposta);
 		
 		response.sendRedirect("index.jsp");
-		
-		
+
 	}
 }

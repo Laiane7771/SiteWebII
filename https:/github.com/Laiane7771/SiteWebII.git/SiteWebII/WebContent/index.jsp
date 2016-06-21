@@ -47,7 +47,7 @@
 			</div>			
 				<nav class = "navegar_acima">
 					<a class = "link-cabecalho" href = "Atendimento.html"> Atendimento </a>
-					<a class = "link-cabecalho" href = "MeusPedidos.html"> Meus pedidos </a>
+					<a class = "link-cabecalho" href = "Cliente/meusDados.html"> Meus dados </a>
 					<a class = "link-cabecalho" href = "Login.jsp"> Login ou Cadastre-se </a>	
 				</nav>	
 		</header>
@@ -113,8 +113,8 @@
 											<span class = "desc-riscado"><%=p.getDescricao() %></span></br>
 											<span class = "preco"><%=p.getValor() %> </span></br>
 										</div>
-											<span class="addCarrinho"><a href="">Adicionar ao Carrinho</a></span>
-											<span class="comprar"><a href="">Comprar</a></span>
+										<span class="addCarrinho"><a href="">Adicionar ao Carrinho</a></span>
+										<span class="comprar"><a href="">Comprar</a></span>
 									</div>
 								</div>
 							</li>

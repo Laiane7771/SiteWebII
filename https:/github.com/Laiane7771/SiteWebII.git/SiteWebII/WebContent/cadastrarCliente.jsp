@@ -12,6 +12,12 @@
 	       	 	$('#uf').load('/SiteWebII/ListarEstado');
 	        });
 		</script>
+		<script type="text/javascript">
+					function redirecionar(){
+						alert("Cadastro realizado com sucesso!");
+						window.location="index.jsp";
+					}
+		</script>
 	</head>
 	<body>
 		<section></section>
@@ -48,7 +54,9 @@
 				
 				<span id="spanConfirma">Confirmar Senha:</span><input class="inputConfirma" name="confirmaSenha"></input>
 				
-				<input type="submit" value="Enviar" id="inputEnviar"></input>
+				<input type="submit" value="Enviar" id="inputEnviar" ></input>
+				
+				
 				
 				<div id="botaoVoltar"><a href="Login.jsp">Voltar</a></div>
 				
@@ -58,6 +66,7 @@
 					out.println("<span id='mensagemSucesso'>"+res+"</span>");
 					}			
 				%>
+				
 		</div>
 		<section></section>
 	</body>
